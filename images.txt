@@ -1,9 +1,11 @@
 nginx
 #支持私库
 
-nyanmisaka/jellyfin:240401-arm64
-xiaoyaliu/alist:hostmode
-xiaoyaliu/alist:latest
+--platform=linux/arm64 nyanmisaka/jellyfin:240401-arm64
+--platform=linux/arm64 xiaoyaliu/alist:hostmode
+#--platform=linux/arm64 xiaoyaliu/alist:latest
+--platform=linux/arm64 homeassistant/home-assistant:dev
+--platform=linux/arm64 ypptec/nascab:latest
 
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
